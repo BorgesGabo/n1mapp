@@ -10,6 +10,21 @@
   </head>
 
   <body>
+      <header class="navbar navbar-fixed-top navbar-inverse">
+      <div class="container">
+        <%= link_to "NiUnaMas", '#', id: "logo" %>
+        <nav>
+          <ul class="nav navbar-nav navbar-right">
+            <li><%= link_to "Inicio",   '#' %></li>
+            <li><%= link_to "Crear cuenta",   '#' %></li>
+            <li><%= link_to "Iniciar sesión", '#' %></li>
+            <li><%= link_to "Reportes", '#' %></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="container">
     <%= yield %>
+    </div>
   </body>
 </html>
