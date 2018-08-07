@@ -1,5 +1,5 @@
 class ApplicationController < ActionController::Base
-def home
+def hello
     render html: "Bienvenido a NiUnaMas"
     
 end
