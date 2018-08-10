@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
-  get 'admin_pages/home'
+  get 'admin_pages/dashboard'
+  get 'static_pages/landing'
+ 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
-  root 'admin_pages#home'
+  root 'static_pages#landing'
 end

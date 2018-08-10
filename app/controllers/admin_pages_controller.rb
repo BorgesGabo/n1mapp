@@ -1,4 +1,4 @@
 class AdminPagesController < ApplicationController
-  def home
+  def dashboard
   end
 end
