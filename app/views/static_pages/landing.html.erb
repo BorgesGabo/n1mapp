@@ -1,2 +1,12 @@
 <h1>StaticPages#landing</h1>
 <p>Find me in app/views/static_pages/landing.html.erb</p>
+
+<! Buttons in case there is no open session-->
+<% if current_user.nil? %>
+	<%= link_to new_user_session_url, class: 'login-button' do %>Iniciar Sesion<% end %>
+    <%= link_to('Crear cuenta', new_user_registration_path)  %>
+<% else %>
+	<%= link_to admin_pages_dashboard_url, class: 'login-button' do %>Ir a reportes<% end %>
+    <%= link_to('Cerrar sesión', destroy_user_session_url, :method => :delete) %> 
+    <%= link_to('Editar cuenta', edit_user_registration_url) %>
+<% end %>

@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :users
   get 'admin_pages/dashboard'
   get 'static_pages/landing'
  

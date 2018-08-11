@@ -1,2 +1,8 @@
 <h1>AdminPages#dashboard</h1>
+
 <p>Find me in app/views/admin_pages/dashboard.html.erb</p>
+
+ <%= link_to('Pagina de inicio', root_url) %>
+  <%= link_to('Editar cuenta', edit_user_registration_url) %>
+  <%= link_to('Cerrar sesión', destroy_user_session_url, :method => :delete) %>        
+
