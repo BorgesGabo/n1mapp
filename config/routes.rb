@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  devise_for :users
+  resources :categories
+  resources :help_centers
   get 'admin_pages/dashboard'
   get 'static_pages/landing'
  
