@@ -1,4 +1,3 @@
 class StaticPagesController < ApplicationController
-  def landing
-  end
+  layout "landing"
 end
