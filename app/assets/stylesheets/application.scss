@@ -1,8 +1,41 @@
-@import "bootstrap-sprockets";
-@import "bootstrap";
-@import "bootstrap.min";
-@import "font-awesome";
-@import "details-admin/AdminLTE.min";
-@import "details-admin/skins/skin-purple.min.css";
-@import "details-admin/Ionicons/ionicons";
-@import "icheck/square/blue.css";
+    @import "bootstrap-sprockets";
+    @import "bootstrap";
+    @import "bootstrap.min";
+    @import "font-awesome";
+    @import "details-admin/AdminLTE.min";
+    @import "details-admin/skins/skin-purple.min.css";
+    @import "details-admin/Ionicons/ionicons";
+    @import "icheck/square/blue.css";
+    #h1color {
+        color: rgb(255, 255, 255);
+        text-align: right;
+        position: relative;
+        right: 10px;
+        padding-right: 0px;
+    }
+    
+    .carousel-caption {
+        right: 2%;
+        bottom: 150px;
+        text-align: right;
+    }
+    
+    .btn-primary {
+        background: #D7B0E6;
+        color: #ffffff;
+        border-color: #D7B0E6;
+    }
+    
+    .btn-primary:active,
+    .btn-primary.active {
+        background: #D7B0E6;
+    }
+    
+    .btn-primary:hover,
+    .btn-primary:focus,
+    .btn-primary:active,
+    .btn-primary.active,
+    .open>.dropdown-toggle.btn-primary {
+        background: rgb(188, 125, 232);
+        border-color: rgb(188, 125, 232);
+    }
