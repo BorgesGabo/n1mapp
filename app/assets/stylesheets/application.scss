@@ -6,6 +6,23 @@
     @import "details-admin/skins/skin-purple.min.css";
     @import "details-admin/Ionicons/ionicons";
     @import "icheck/square/blue.css";
+    /*import font family*/
+    
+    @import url('https://fonts.googleapis.com/css?family=Fira+Sans:700');
+    h0 {
+        font-family: 'Fira Sans', sans-serif;
+        font-size: 50px;
+        font-weight: bolder;
+    }
+    
+    h00 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 35px;
+        font-weight: bold;
+        color: #D7B0E6;
+        margin-top: 20px;
+    }
+    
     #h1color {
         color: rgb(255, 255, 255);
         text-align: right;
@@ -38,4 +55,19 @@
     .open>.dropdown-toggle.btn-primary {
         background: rgb(188, 125, 232);
         border-color: rgb(188, 125, 232);
+    }
+    
+    .container-fluid {
+        padding-top: 1%;
+        padding-left: 5%;
+        padding-right: 0%;
+        padding-bottom: 0%;
+    }
+    
+    .col-md-3 {
+        padding-right: 2%;
+    }
+    
+    .carousel-inner {
+        height: 75vh;
     }
